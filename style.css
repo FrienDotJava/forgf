@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(#FFC7C7, #F6F6F6);
+}
+
+h1 {
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 900;
+    color:#AF40E0;
+    text-shadow: 2px 2px #ffb117;
+}
+
+#title {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.birthday-img {
+    width: 400px;
+    position: relative;
+    top: -40px;
+}
+
+.alpaca-img {
+    width: 300px;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+}
+
+.confetti-img {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+#photos img {
+    width: 90%;
+}
+
+#button {
+    margin-bottom: 50px;
+}
+
+.gift-button {
+    width: 30%;
+}
